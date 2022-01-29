@@ -1,4 +1,4 @@
-# Express - Sequelize Templat
+# Express - Sequelize Template
 
 This template allows you to create quick APIs using express, and sequilize. There are three main parts you should pay attention to
 
