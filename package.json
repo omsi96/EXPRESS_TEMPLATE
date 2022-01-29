@@ -48,7 +48,7 @@
     "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "env-cmd nodemon --exec babel-node app.js",
+    "start": "nodemon --exec babel-node app.js",
     "erd": "sequelize-erd --source ./db/instance --destination ./erd.svg",
     "deploy": "babel-node app.js"
   },

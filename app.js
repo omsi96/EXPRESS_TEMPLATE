@@ -5,13 +5,11 @@ import { connect } from "./db";
 import { errorMiddleware } from "./middleware/errorMiddleware";
 import routers from "./routers";
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8088;
 app.use(preMiddleware);
 app.use(routers);
 app.use(postMiddleware);
 app.use(errorMiddleware);
-
-require("./discord");
 
 connect(async () => {
   app.listen(port, () => {
