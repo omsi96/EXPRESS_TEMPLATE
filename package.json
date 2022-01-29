@@ -1,9 +1,9 @@
 {
-  "name": "boque-api",
+  "name": "express_template",
   "version": "1.0.0",
-  "description": "Corner stone project",
+  "description": "A template that allows you to create quick apis with express and sequilize",
   "main": "app.js",
-  "repository": "https://github.com/omsi96/boque-api.git",
+  "repository": "https://github.com/omsi96/EXPRESS_TEMPLATE.git",
   "author": "Omar <omsi96@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
